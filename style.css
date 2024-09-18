@@ -6,7 +6,7 @@
 
 /* Variables */
 :root {
-  --font-family: "Roboto", sans-serf;
+  --font-family: "DM sans", sans-serf;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
@@ -206,7 +206,7 @@ nav {
   .project-card {
     background-color: #fff;
     border-radius: 11px;
-    box-shadow: 0 3px 10px var(--primary-shadow);
+    box-shadow: 0 3px 10px var(--secondary-shadow);
     padding: 20px;
     margin: 10px;
   }
