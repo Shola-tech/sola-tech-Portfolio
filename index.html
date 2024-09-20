@@ -22,11 +22,10 @@
     />
 
     <!-- Animate CSS CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <title>Shola-Tech | Web Developer</title>
+    
+<link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+     <title>Shola-Tech | Web Developer</title>
   </head>
 
   <body>
@@ -132,49 +131,46 @@
         <h2 class="projects-title">Some of my Recent Projects</h2>
         <div class="projects-container">
           <div class="project-container project-card">
-            <img
+           <a href="todo.html" target="_blank"> <img
               src="Screenshot (91).png"
               alt="ToDo List"
               loading="lazy"
               class="project-pic"
-            />
+            /></a>
             <h3 class="project-title">ToDo List</h3>
             <p class="project-details">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-              ratione vel inventore labore commodi modi quos culpa aut saepe!
-              Alias!
+             Would you like to create a specific todo list for web development task?. Add priority levels(e.g high, medium, low),
+             modify the layout or structure? 
             </p>
             <a href="todo.html" target="_blank" class="project-link">Check it Out</a>
           </div>
           <div class="project-container project-card">
-            <img
+            <a href="https://shola-tech.github.io/loginpage/" target="_blank"><img
               src="Screenshot (92).png"
               alt="Glassmorphic login"
               loading="lazy"
               class="project-pic"
-            />
+            /></a>
             <h3 class="project-title">Glassmorphic login</h3>
             <p class="project-details">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-              ratione vel inventore labore commodi modi quos culpa aut saepe!
-              Alias!
+              Would you like me to Design a responsive layout for desktop and mobile devices?
+              Create a color scheme and palette for the login page? Create a forgot password feature?
             </p>
-            <a href="https://shola-tech.github.io/loginpage/" target="_blank" class="project-link">Check it Out</a>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
           </div>
           <div class="project-container project-card">
-            <img
+           <a href="https://shola-tech.github.io/ecommerce-restaurant/" target="_blank"><img
               src="Screenshot (98).png"
               alt="greeny-earth"
               loading="lazy"
               class="project-pic"
-            />
+            /></a>
             <h3 class="project-title">Ecomerce Restaurant</h3>
             <p class="project-details">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-              ratione vel inventore labore commodi modi quos culpa aut saepe!
-              Alias!
+              Would you like me to create content for a specific cuisine (e.g., Italian, Mexican)?
+               Highlight promotions/events? Write a compelling About Us story?
             </p>
-            <a href="https://shola-tech.github.io/ecommerce-restaurant/" target="_blank" class="project-link">Check it Out</a>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
           </div>
         </div>
       </section>
@@ -182,52 +178,57 @@
     <!-- Contact section -->
      
     <section class="contact" id="contact">
+      <div class="content">
         <h2>Get In Touch With Me</h2>
-        <div class="contact-form-container">
-          <div class="contact-form">
-            <form action="https://formspree.io/f/xyylngw" method="POST">
-              <div class="form-control">
-                <label for="name">Name</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="sender-name"
-                  placeholder="Enter Your Name"
-                  class="input-field"
-                  required
-                />
+        <p>Want to discuss a project, ready to collaborate, need help with a coding problem,
+           or just want to chat about web development? Let's connect </p>
+            </div>
+            <div class="container">
+              <div class="contactinfo">
+                <div class="box">
+                  <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                  <div class="text">
+                    <h3>Address</h3>
+                    <p>Km 7 Idiroko Road,<br> Ota Ogun State <br> 112226 </p>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="icon" ><i class="fa-solid fa-phone"></i></div>
+                  <div class="text">
+                    <h3>Phone</h3>
+                    <p> <a href="tel:+234 916 071 5211" style="color: #555; text-decoration: none;">+234 916 071 5211 </a></p>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="icon" ><i class="fa-solid fa-envelope"></i></div>
+                  <div class="text"> 
+                    <h3>Email</h3>
+                    <p><a href="mailto:olorunmowajumarysc@gmail.com" style="color: #555; text-decoration: none;">olorunmowajumarysc@gmail.com</a></p>
+                  </div>
+                </div>
               </div>
-              <div class="form-control">
-                <label for="email">Email</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="sender-email"
-                  placeholder="Enter Your Email"
-                  class="input-field"
-                  required
-                />
+              <div class="contactform">
+                <form >
+                  <h2>Send Me Message</h2>
+                  <div class="inputBox">
+                    <input type="text" name="" required>
+                    <span>Full name</span>
+                  </div>
+                  <div class="inputBox">
+                    <input type="email" name="" required>
+                    <span>Email</span>
+                  </div>
+                  <div class="inputBox">
+                    <textarea required></textarea>
+                    <span>Type your Message...</span>
+                  </div>
+                  <div class="inputBox">
+                    <input type="submit" name="" value="send"  required>
+                  
+                  </div>
+                </form>
               </div>
-              <div class="form-control">
-                <label for="message">Message</label>
-                <textarea
-                  id="message"
-                  cols="60"
-                  rows="10"
-                  placeholder="Enter Your Message"
-                  name="message"
-                  class="input-field"
-                  required
-                ></textarea>
-              </div>
-              <input
-                type="submit"
-                value="Submit"
-                id="submit-btn"
-                class="submit-btn" mailto:olorunmowajumarysc@gmail.com/>
-            </form>
-          </div>
-        </div>
+            </div>
       </section>
     <!-- Social accounts - Fixed to the right -->
     <div class="socials">
@@ -238,7 +239,7 @@
             loading="lazy"
             class="socicon"
         /></a>
-        <a href="#" target="_blank"
+        <a href="https://www.instagram.com/olorunmowajumarysc?igsh=YzljYTk1ODg3Zg==" target="_blank"
           ><img
             src="instargram.png"
             alt="Instagram" 
@@ -252,7 +253,7 @@
             loading="lazy"
             class="socicon"
         /></a>
-        <a href="#" target="_blank"
+        <a href="https://www.instagram.com/olorunmowajumarysc?igsh=YzljYTk1ODg3Zg==" target="_blank"
           ><img src="github.png" alt="Github" class="socicon"
         /></a>
     <!-- Scroll to top -->
