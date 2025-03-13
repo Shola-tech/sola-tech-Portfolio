@@ -60,7 +60,7 @@ function CreateToDoItems() {
           ? '<img class="edit todo-controls" onclick="UpdateToDoItems(this)" src="pen.png" />'
           : ""
       }
-      <img class="delete todo-controls" onclick="DeleteToDoItems(this)" src="/images/delete.png" /></div></div>`;
+      <img class="delete todo-controls" onclick="DeleteToDoItems(this)" src="delete.png" /></div></div>`;
       li.innerHTML = todoItems;
       listItems.appendChild(li);
     });
@@ -128,7 +128,7 @@ function CreateToDoItems() {
   
     updateText.innerText = todoValue.value;
     addUpdate.setAttribute("onclick", "CreateToDoItems()");
-    addUpdate.setAttribute("src", "plus.png");
+    addUpdate.setAttribute("src", "plu.png");
     todoValue.value = "";
     setAlertMessage("Todo item Updated Successfully!");
   }
